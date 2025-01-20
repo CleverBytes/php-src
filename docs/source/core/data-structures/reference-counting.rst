@@ -66,7 +66,7 @@ under `GC flags`_.
 ********
  Macros
 ********
-
+    ->name('/(\.php|^generate-document|^generate-locales|^check-phpdoc-types)$/')
 As with ``zval``, ``zend_refcounted_h`` members should not be accessed directly. Instead, you should
 use the provided macros. There are macros that work with reference counted types directly, prefixed
 with ``GC_``, or macros that work on ``zval`` values, usually prefixed with ``Z_``. Unfortunately,
